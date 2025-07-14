@@ -32,4 +32,4 @@ jobs:
     - name: SonarCloud Scan
       uses: SonarSource/sonarcloud-github-action@v1
       with:
-        token: ${{ secrets.amber2 }}
+        token: ${{ secrets.AMBER2 }}
